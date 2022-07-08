@@ -8,16 +8,36 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Toolbox</title>
+        <title>Google Amp Help Tools</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Next.js Toolbox" />
+        <Header title="Malic News " />
         <hr />
         <p className="description">
-          Here's an example of a Netlify Form! When you fill this out, the
-          submissions can be found in the Netlify Admin site.
+          AMP's development workflow
+Start
+Building a 'Hello World' page and try adding your first interactive feature to an AMP page.
+
+Create your AMP HTML page
+Integrate
+Combine your pages with non-AMP pages, a PWA, native apps and more.
+
+Integrate AMP with your app
+Learn
+Get to know how AMP is different and acquire the fundamentals for how AMP works.
+
+AMP HTML Specification
+Optimize & Measure
+Make more out of your AMP pages through analytics, optimal delivery and caching.
+
+Configure analytics
+Develop
+Create every content, layout, and feature your website needs.
+
+Style & layout
+
         </p>
         <FeedbackForm />
         <JokeBlock />
